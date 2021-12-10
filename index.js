@@ -40,16 +40,16 @@ window.addEventListener("scroll", () => {
     handleScrollAnimation();
 });
 // --- einde scroll ---
-var x = document.getElementById('test');
-x.addEventListener('mouseover', playSound());
-x.addEventListener('mouseout', stopSound());
+// var x = document.getElementById('test');
+// x.addEventListener('mouseover', playSound());
+// x.addEventListener('mouseout', stopSound());
 
-function playSound(){
-    var audio = document.querySelector('#station');
-   audio.play()
-}
+// function playSound(){
+//     var audio = document.querySelector('#station');
+//    audio.play()
+// }
 
-function stopSound() {
-    var audio = document.querySelector('station');
-    audio.pause()   
-}
+// function stopSound() {
+//     var audio = document.querySelector('station');
+//     audio.pause()   
+// }
